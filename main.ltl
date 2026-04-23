@@ -1,0 +1,15 @@
+// ltl-nginx-parse/main.ltl
+//
+// nginx.conf parser producing a structured AST.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-nginx-parse v0.1.0")
+    io::println("nginx.conf parser producing a structured AST.")
+    0
+}
